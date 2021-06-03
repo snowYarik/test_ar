@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - CameraRecorder
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
@@ -30,11 +32,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEngine.UI.dll:
-    - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
   sceneClasses:
-    Assets/ARKitFaceBlendShapes.unity:
+    Assets/Scenes/FaceTracking.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -53,34 +52,30 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1718}
+      Script: {instanceID: 5782}
     - Class: 114
-      Script: {instanceID: 2462}
+      Script: {instanceID: 6514}
     - Class: 114
-      Script: {instanceID: 2474}
+      Script: {instanceID: 6524}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 7186}
     - Class: 114
-      Script: {instanceID: 2884}
+      Script: {instanceID: 7190}
     - Class: 114
-      Script: {instanceID: 3146}
+      Script: {instanceID: 7604}
     - Class: 114
-      Script: {instanceID: 3150}
+      Script: {instanceID: 7838}
     - Class: 114
-      Script: {instanceID: 3566}
+      Script: {instanceID: 8316}
     - Class: 114
-      Script: {instanceID: 3802}
+      Script: {instanceID: 8524}
     - Class: 114
-      Script: {instanceID: 4296}
-    - Class: 114
-      Script: {instanceID: 4508}
+      Script: {instanceID: 22574}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -808,7 +803,49 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NatSuite.Examples.Components
+    className: CameraPreview
+  - hash:
+      serializedVersion: 2
+      Hash: fa75674795d1258a20a91a234ef97612
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NatSuite.Examples.Components
+    className: RecordButton
+  - hash:
+      serializedVersion: 2
+      Hash: 94b246b0dd817b16f653e8bd9c47af81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NatSuite.Examples
+    className: ReplayCam
+  - hash:
+      serializedVersion: 2
+      Hash: 69158cb5c754033ffa14a0c6c76a5b90
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NatSuite.Examples
+    className: Giffy
+  - hash:
+      serializedVersion: 2
+      Hash: 494e3b0897c1853549d512c9e22d8dee
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NatSuite.Examples
+    className: WebCam
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NatSuite.Examples
+    className: Karaoke
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraRecorder
   platform: 13
   scenePathNames:
-  - Assets/ARKitFaceBlendShapes.unity
-  playerPath: /Users/stepan/test_ar_kit/unity/test_ar_kit_unity/Builds/test_ar_kit_unity.apk
+  - Assets/Scenes/FaceTracking.unity
+  playerPath: /Users/stepan/test_ar/unity/test_ar_kit_unity/Builds/test_ar_kit_unity.apk
