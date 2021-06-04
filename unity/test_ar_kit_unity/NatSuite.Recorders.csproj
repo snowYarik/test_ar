@@ -52,23 +52,23 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\NatSuite\NatCorder\Runtime\Internal\Bridge.cs" />
+     <Compile Include="Assets\NatSuite\NatCorder\Runtime\WAVRecorder.cs" />
      <Compile Include="Assets\NatSuite\NatCorder\Runtime\Clocks\IClock.cs" />
+     <Compile Include="Assets\NatSuite\NatCorder\Runtime\GIFRecorder.cs" />
      <Compile Include="Assets\NatSuite\NatCorder\Runtime\IMediaRecorder.cs" />
      <Compile Include="Assets\NatSuite\NatCorder\Runtime\HEVCRecorder.cs" />
-     <Compile Include="Assets\NatSuite\NatCorder\Runtime\Internal\Bridge.cs" />
-     <Compile Include="Assets\NatSuite\NatCorder\Runtime\Inputs\CameraInput.cs" />
      <Compile Include="Assets\NatSuite\NatCorder\Runtime\Inputs\AsyncTextureInput.cs" />
-     <Compile Include="Assets\NatSuite\NatCorder\Runtime\Internal\Utility.cs" />
      <Compile Include="Assets\NatSuite\NatCorder\Runtime\Inputs\TextureInput.cs" />
-     <Compile Include="Assets\NatSuite\NatCorder\Runtime\GIFRecorder.cs" />
-     <Compile Include="Assets\NatSuite\NatCorder\Runtime\Clocks\RealtimeClock.cs" />
-     <Compile Include="Assets\NatSuite\NatCorder\Runtime\WAVRecorder.cs" />
-     <Compile Include="Assets\NatSuite\NatCorder\Runtime\Inputs\AudioInput.cs" />
-     <Compile Include="Assets\NatSuite\NatCorder\Runtime\Internal\NativeRecorder.cs" />
-     <Compile Include="Assets\NatSuite\NatCorder\Runtime\JPGRecorder.cs" />
      <Compile Include="Assets\NatSuite\NatCorder\Runtime\MP4Recorder.cs" />
+     <Compile Include="Assets\NatSuite\NatCorder\Runtime\Inputs\CameraInput.cs" />
+     <Compile Include="Assets\NatSuite\NatCorder\Runtime\JPGRecorder.cs" />
      <Compile Include="Assets\NatSuite\NatCorder\Runtime\Clocks\FixedIntervalClock.cs" />
      <Compile Include="Assets\NatSuite\NatCorder\Runtime\Inputs\ITextureInput.cs" />
+     <Compile Include="Assets\NatSuite\NatCorder\Runtime\Inputs\AudioInput.cs" />
+     <Compile Include="Assets\NatSuite\NatCorder\Runtime\Internal\Utility.cs" />
+     <Compile Include="Assets\NatSuite\NatCorder\Runtime\Internal\NativeRecorder.cs" />
+     <Compile Include="Assets\NatSuite\NatCorder\Runtime\Clocks\RealtimeClock.cs" />
      <None Include="Assets\NatSuite\NatCorder\Runtime\NatSuite.Recorders.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>

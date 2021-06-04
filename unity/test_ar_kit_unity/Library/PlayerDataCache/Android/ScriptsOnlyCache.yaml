@@ -19,8 +19,6 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.ARFoundation.ARPoseDriver
     - UnityEngine.XR.ARFoundation.ARSession
     - UnityEngine.XR.ARFoundation.ARSessionOrigin
-    Unity.XR.ARKit.Editor.dll:
-    - UnityEditor.XR.ARKit.ARKitSettings
     Unity.XR.ARKit.dll:
     - UnityEngine.XR.ARKit.ARKitLoader
     Unity.XR.Management.Editor.dll:
@@ -32,8 +30,14 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Text
   sceneClasses:
-    Assets/Scenes/FaceTracking.unity:
+    Assets/ARKitFaceBlendShapes.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -52,37 +56,63 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 5782}
+      Script: {instanceID: 1736}
     - Class: 114
-      Script: {instanceID: 6514}
+      Script: {instanceID: 2164}
     - Class: 114
-      Script: {instanceID: 6524}
+      Script: {instanceID: 2464}
     - Class: 114
-      Script: {instanceID: 7186}
+      Script: {instanceID: 2490}
     - Class: 114
-      Script: {instanceID: 7190}
+      Script: {instanceID: 2502}
     - Class: 114
-      Script: {instanceID: 7604}
+      Script: {instanceID: 2564}
     - Class: 114
-      Script: {instanceID: 7838}
+      Script: {instanceID: 2726}
     - Class: 114
-      Script: {instanceID: 8316}
+      Script: {instanceID: 2924}
     - Class: 114
-      Script: {instanceID: 8524}
+      Script: {instanceID: 3190}
     - Class: 114
-      Script: {instanceID: 22574}
+      Script: {instanceID: 3194}
+    - Class: 114
+      Script: {instanceID: 3620}
+    - Class: 114
+      Script: {instanceID: 3694}
+    - Class: 114
+      Script: {instanceID: 3866}
+    - Class: 114
+      Script: {instanceID: 4360}
+    - Class: 114
+      Script: {instanceID: 4574}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
   - hash:
       serializedVersion: 2
       Hash: 24c74cc0d527a06113f2b967042769f0
@@ -187,6 +217,12 @@ ScriptsOnlyBuild:
     className: ARPointCloudMeshVisualizer
   - hash:
       serializedVersion: 2
+      Hash: 69158cb5c754033ffa14a0c6c76a5b90
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NatSuite.Examples
+    className: Giffy
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -233,6 +269,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARParticipantManager
+  - hash:
+      serializedVersion: 2
+      Hash: fa75674795d1258a20a91a234ef97612
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NatSuite.Examples.Components
+    className: RecordButton
   - hash:
       serializedVersion: 2
       Hash: 5f170942ee57c7a568f5bcfc7521adea
@@ -319,6 +361,12 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NatSuite.Examples
+    className: Karaoke
+  - hash:
+      serializedVersion: 2
       Hash: f40fedccd4adbc76605bea6d67537e4b
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -397,16 +445,16 @@ ScriptsOnlyBuild:
     className: ARPointCloudManager
   - hash:
       serializedVersion: 2
-      Hash: 69415240821be7986b27e72bf9609a30
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
-  - hash:
-      serializedVersion: 2
       Hash: 290afc8da8e459e0b8dc7444bfaf5e35
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: AREnvironmentProbe
+  - hash:
+      serializedVersion: 2
+      Hash: 94b246b0dd817b16f653e8bd9c47af81
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NatSuite.Examples
+    className: ReplayCam
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a
@@ -437,6 +485,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARFoundation.dll
     namespaceName: UnityEngine.XR.ARFoundation
     className: ARAnchorManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: NatSuite.Examples.Components
+    className: CameraPreview
   - hash:
       serializedVersion: 2
       Hash: caa533b001ae39b864ba8425019e2268
@@ -587,6 +641,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARKit.dll
     namespaceName: UnityEngine.XR.ARKit
     className: ARKitLoader
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CameraRecorder
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -805,47 +865,11 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: NatSuite.Examples.Components
-    className: CameraPreview
-  - hash:
-      serializedVersion: 2
-      Hash: fa75674795d1258a20a91a234ef97612
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: NatSuite.Examples.Components
-    className: RecordButton
-  - hash:
-      serializedVersion: 2
-      Hash: 94b246b0dd817b16f653e8bd9c47af81
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: NatSuite.Examples
-    className: ReplayCam
-  - hash:
-      serializedVersion: 2
-      Hash: 69158cb5c754033ffa14a0c6c76a5b90
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: NatSuite.Examples
-    className: Giffy
-  - hash:
-      serializedVersion: 2
       Hash: 494e3b0897c1853549d512c9e22d8dee
     assemblyName: Assembly-CSharp.dll
     namespaceName: NatSuite.Examples
     className: WebCam
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: NatSuite.Examples
-    className: Karaoke
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CameraRecorder
   platform: 13
   scenePathNames:
-  - Assets/Scenes/FaceTracking.unity
+  - Assets/ARKitFaceBlendShapes.unity
   playerPath: /Users/stepan/test_ar/unity/test_ar_kit_unity/Builds/test_ar_kit_unity.apk

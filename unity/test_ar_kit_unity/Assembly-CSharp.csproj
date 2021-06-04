@@ -53,16 +53,16 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\FlutterUnityIntegration\NativeAPI.cs" />
+     <Compile Include="Assets\NatSuite\Examples\Giffy\Giffy.cs" />
+     <Compile Include="Assets\NatSuite\Examples\ReplayCam\RecordButton.cs" />
+     <Compile Include="Assets\NatSuite\Examples\Karaoke\Karaoke.cs" />
+     <Compile Include="Assets\NatSuite\Examples\ReplayCam\ReplayCam.cs" />
+     <Compile Include="Assets\NatSuite\Examples\ReplayCam\CameraPreview.cs" />
+     <Compile Include="Assets\Scripts\CameraRecorder.cs" />
      <Compile Include="Assets\ARKitBlendShapeVisualizer.cs" />
      <Compile Include="Assets\FlutterUnityIntegration\UnityMessageManager.cs" />
-     <Compile Include="Assets\FlutterUnityIntegration\SingletonMonoBehaviour.cs" />
-     <Compile Include="Assets\NatSuite\Examples\ReplayCam\CameraPreview.cs" />
-     <Compile Include="Assets\NatSuite\Examples\ReplayCam\RecordButton.cs" />
-     <Compile Include="Assets\NatSuite\Examples\ReplayCam\ReplayCam.cs" />
-     <Compile Include="Assets\NatSuite\Examples\Giffy\Giffy.cs" />
      <Compile Include="Assets\NatSuite\Examples\WebCam\WebCam.cs" />
-     <Compile Include="Assets\NatSuite\Examples\Karaoke\Karaoke.cs" />
-     <Compile Include="Assets\Scripts\CameraRecorder.cs" />
+     <Compile Include="Assets\FlutterUnityIntegration\SingletonMonoBehaviour.cs" />
      <None Include="Assets\FlutterUnityIntegration\JsonDotNet\link.xml" />
      <None Include="Assets\FlutterUnityIntegration\README.txt" />
      <None Include="Assets\NatSuite\Examples\ReplayCam\UI\CameraPreview.shader" />
